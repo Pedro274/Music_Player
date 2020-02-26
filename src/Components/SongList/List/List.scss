@@ -1,0 +1,24 @@
+.Card_Item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    box-shadow: 0 0 2px black;
+    cursor: pointer;
+    &:hover {
+        color: white;
+        background-color: cadetblue;
+    }
+    p {
+        margin: 12px;
+    }
+}
+
+.visible {
+    visibility: visible;
+}
+.hidden {
+    visibility: hidden;
+}
