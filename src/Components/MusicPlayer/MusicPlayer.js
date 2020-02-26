@@ -12,8 +12,6 @@ function MusicPlayer(props) {
         setError] = useState('');
     const songURL = "https://assets.breatheco.de/apis/sound/";
 
-    console.log(props.match.params.id)
-
     useEffect(() => {
         const fetchData = async() => {
             try {
